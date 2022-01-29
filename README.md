@@ -1,3 +1,1 @@
-# Medical_Imaging_Application
-task 
-The user profile page allows the user to add and update exam records
+01/29 - pushing the react app

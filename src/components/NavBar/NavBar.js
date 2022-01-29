@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from '../Pages/Home.js';
-import AllReports from '../Pages/AllReports.js';
-import UserProfile from '../Pages/UserProile.js';
+import Home from '../../Pages/Home.js';
+import AllReports from '../../Pages/AllReports.js';
+import UserProfile from '../../Pages/UserProile.js';
 
 function NavBar() {
   return (

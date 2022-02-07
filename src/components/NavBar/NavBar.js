@@ -1,36 +1,20 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from '../../Pages/Home.js';
-import AllReports from '../../Pages/AllReports.js';
-import UserProfile from '../../Pages/UserProfile.js';
+import { Container, Navbar, Nav, } from "react-bootstrap";
 
 function NavBar() {
   return (
-    <div>
-        <Router>
-            <div>
-              <nav>
-                <ul>
-                <li>
-                  <Link to="/Home">Home</Link>
-                </li>
-                <li>
-                    <Link to="/AllReports">All Reports</Link>
-                  </li>
-                  <li>
-                    <Link to="/UserProfile">UserProfile</Link>
-                  </li>
-                  </ul>
-                </nav>
-              </div>
-              <Routes>
-              <Route path='/Home' element={ <Home/> }/>
-              <Route path='AllReports' element={ <AllReports /> }/>
-              <Route path='UserProfile' element={ <UserProfile/>  }/>
-              </Routes>
-        </Router>
-    </div>
-  );
+<>
+  <Navbar>
+      <Container>
+      <Navbar.Brand to="/home">COMPANY </Navbar.Brand>
+      <Nav className="me-auto">
+        <Nav.Link href="/home">Home</Nav.Link>
+        <Nav.Link href="AllReports">All Reports</Nav.Link>
+        <Nav.Link href="SignIn">Sign In</Nav.Link>
+      </Nav>
+      </Container>
+    </Navbar>
+</>
+  )
 }
-
 export default NavBar;

@@ -1,0 +1,17 @@
+@import '../index.style.css';
+
+.LandingPage-section {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+}
+
+.LandingPage-image {
+    flex: 1;
+    background-color: rgba(0, 0, 255, 0.075);
+}
+.LandingPage-text {
+    flex: 1;
+    background-color: rgba(236, 171, 216, 0.062);
+}

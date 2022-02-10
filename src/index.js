@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Home from './Pages/Home';
+import SignIn from './Pages/SignIn';
 import AllReports from './Pages/AllReports.js';
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
@@ -23,7 +24,7 @@ ReactDOM.render(
         <Route path="/" element={<Home/>} />
         <Route path="home" element={<Home />} />
         <Route path="AllReports" element={<AllReports />} />
-        <Route path="SignIn" element={<Home />} />
+        <Route path="SignIn" element={<SignIn />} />
       </Routes>
     </div>
     <Footer />

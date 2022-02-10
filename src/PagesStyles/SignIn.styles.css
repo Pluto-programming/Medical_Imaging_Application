@@ -1,0 +1,17 @@
+@import '../index.style.css';
+
+
+.SignIn-formWrapper {
+    width: 50%;
+    padding: 1%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px !important;
+}
+.SignIn-formTitle {
+    text-align: center;
+}
+.SignIn-formButton {
+    display: flex !important;
+    margin: auto !important;
+}

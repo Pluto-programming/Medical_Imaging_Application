@@ -1,0 +1,28 @@
+.AllReports-column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  /* Clearfix (clear floats) */
+  .AllReports-row::after {
+    content: “”;
+    clear: both;
+    display: table;
+  }
+
+  .AllReports-p {
+      text-align: center;
+  }
+
+  .AllReports-img {
+      max-width: 100%;
+      height: 300px;
+      width: 270px;
+  }
+  .AllReports-wrapper {
+  display:flex;
+  }
+  .AllReports-sorting {
+  flex: 1;
+  min-width: 20%;
+  }

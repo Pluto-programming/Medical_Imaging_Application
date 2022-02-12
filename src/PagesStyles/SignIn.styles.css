@@ -3,11 +3,13 @@
 
 .SignIn-formWrapper {
    
-    width: 75%;
+    
+    width: 20%;
     padding: 1%;
-    margin: 12.5%;
+    margin: 12.5% 40%;
     background-color: rgb(255, 255, 255);
     border-radius: 25px !important;
+    
    
 }
 .SignIn-formTitle {

@@ -9,37 +9,38 @@ function Home() {
       {/* Home Cards */}
       <div className="Home-cardsWrapper">
         <Card className='Home-cards' bg='Primary'>
-          <Card.Header>Header</Card.Header>
+          <Card.Header>Home page</Card.Header>
           <Card.Body>
-            <Card.Title>Title </Card.Title>
+            <Card.Title>Contents </Card.Title>
             <Card.Text>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Sequi ratione architecto necessitatibus
-              cum praesentium dolor totam voluptatibus recusandae.
+            The Home page contains search boxes to be able to look 
+            for a patient's exam records based on First Name, Last Name,
+             Date of Birth, and Zip Code. After clicking the Search button you will be 
+             redirected to a page containing all the patient's information and X-rays.
             </Card.Text>
           </Card.Body>
         </Card>
 
         <Card className='Home-cards'>
-          <Card.Header>Header</Card.Header>
+          <Card.Header>All Reports</Card.Header>
           <Card.Body>
-            <Card.Title>Title </Card.Title>
+            <Card.Title>Contents</Card.Title>
             <Card.Text>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Sequi ratione architecto necessitatibus
-              cum praesentium dolor totam voluptatibus recusandae.
+           This page will contain all the exam records of every patient
+           inside our database, as well as having links to the images of their X-rays. You can sort
+           these records based on Date, Brexit score, and Age.
             </Card.Text>
           </Card.Body>
         </Card>
 
         <Card className='Home-cards'>
-          <Card.Header>Header</Card.Header>
+          <Card.Header>Sign In</Card.Header>
           <Card.Body>
-            <Card.Title>Title </Card.Title>
+            <Card.Title>Contents </Card.Title>
             <Card.Text>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Sequi ratione architecto necessitatibus
-              cum praesentium dolor totam voluptatibus recusandae.
+             This page will verify the credentials of authorized users 
+             to grant them access to the database, so that they can be able 
+             to update patients records and add new patients into the database.
             </Card.Text>
           </Card.Body>
         </Card>

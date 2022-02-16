@@ -37,7 +37,7 @@ function LandingPage() {
             </div>
             <div className="LandingPage-text">
                 <p>
-                    TEXT GOES HERE
+                    THE TEXT GOES HERE
                 </p>
             </div>
         </div>

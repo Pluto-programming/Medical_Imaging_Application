@@ -1,0 +1,13 @@
+@import '../../index.style.scss';
+
+.Navbar {
+    border-top-color: rgb(255, 255, 255) !important;
+    border-left-color: rgb(255, 255, 255) !important;
+    border-right-color: rgb(255, 255, 255) !important;
+    border-bottom: .5px;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.404);
+}
+.Navbar-brand {
+    color: $hotPink !important;
+}

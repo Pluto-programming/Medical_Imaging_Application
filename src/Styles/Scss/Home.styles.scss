@@ -1,0 +1,42 @@
+@import '../../index.style.scss';
+
+.Home {
+    background-image: linear-gradient(rgba(228, 228, 238, 0.616), rgba(196, 197, 204, 0.521)),
+    url("../images/bg_doctor1.png");
+    background-position: center top;
+    background-size: 100% auto;
+}
+.Home-cardsWrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.Home-cards {
+    background-color: $blue !important;
+    color: white;
+    border-radius: 10px !important;
+    margin: 1.15% !important;
+}
+
+.Home-formWrapper {
+    width: 60%;
+    padding: 1%;
+    margin: auto;
+    background-color: $white;
+    border-radius: 25px !important;
+    font-size: smaller;
+ }   
+.Home-formTitle {
+    text-align: center;
+    color: $darkGray;
+}
+.Home-formButton {
+    display: flex !important;
+    margin: auto !important;
+    border-width: 0px !important;
+    border-radius: 10px !important;
+    background-color: $hotPink !important;
+}
+input {
+    border-radius: 10px !important;
+}

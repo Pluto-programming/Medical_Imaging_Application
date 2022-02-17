@@ -1,53 +1,50 @@
 import React from "react";
 
 import { Card, Form, Button } from 'react-bootstrap';
-import '../PagesStyles/Home.styles.css';
+import '../Styles/Scss/Home.styles.scss';
 
 function Home() {
   return (
-    <div>
+    <div className="Home">
       {/* Home Cards */}
       <div className="Home-cardsWrapper">
         <Card className='Home-cards' bg='Primary'>
-          <Card.Header>Home page</Card.Header>
+          <Card.Header>Header</Card.Header>
           <Card.Body>
-            <Card.Title>Contents </Card.Title>
             <Card.Text>
-            The Home page contains search boxes to be able to look 
-            for a patient's exam records based on First Name, Last Name,
-             Date of Birth, and Zip Code. After clicking the Search button you will be 
-             redirected to a page containing all the patient's information and X-rays.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Sequi ratione architecto necessitatibus
+              cum praesentium dolor totam voluptatibus recusandae.
             </Card.Text>
           </Card.Body>
         </Card>
 
         <Card className='Home-cards'>
-          <Card.Header>All Reports</Card.Header>
+          <Card.Header>Header</Card.Header>
           <Card.Body>
-            <Card.Title>Contents</Card.Title>
             <Card.Text>
-           This page will contain all the exam records of every patient
-           inside our database, as well as having links to the images of their X-rays. You can sort
-           these records based on Date, Brexit score, and Age.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Sequi ratione architecto necessitatibus
+              cum praesentium dolor totam voluptatibus recusandae.
             </Card.Text>
           </Card.Body>
         </Card>
 
         <Card className='Home-cards'>
-          <Card.Header>Sign In</Card.Header>
+          <Card.Header>Header</Card.Header>
           <Card.Body>
-            <Card.Title>Contents </Card.Title>
             <Card.Text>
-             This page will verify the credentials of authorized users 
-             to grant them access to the database, so that they can be able 
-             to update patients records and add new patients into the database.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Sequi ratione architecto necessitatibus
+              cum praesentium dolor totam voluptatibus recusandae.
             </Card.Text>
           </Card.Body>
         </Card>
      </div>
 
+{/* Look up form  */}
      <div className="Home-formWrapper">
-      <h4 className='Home-formTitle'>Look up patient</h4>
+      <h5 className='Home-formTitle'>Look up patient</h5>
       <Form className="Home-Form">
           <Form.Group className="mb-3" controlId="formName">
               <Form.Label>First Name</Form.Label>
@@ -64,6 +61,11 @@ function Home() {
           <Form.Group className="mb-3" controlId="formZipCode">
               <Form.Label>Zip Code</Form.Label>
               <Form.Control type="text" placeholder="01852" />
+          </Form.Group>
+          <h6 className="Home-formTitle"> Or </h6>
+          <Form.Group className="mb-3" controlId="formPatientID">
+              <Form.Label>Patient ID</Form.Label>
+              <Form.Control type="text" placeholder="COVID-AR-164XXXXX" />
           </Form.Group>
           <Button className="Home-formButton"  type="submit">
             Search

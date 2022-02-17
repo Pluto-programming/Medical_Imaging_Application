@@ -1,0 +1,24 @@
+@import '../../index.style.scss';
+
+footer {
+    background-color: $white;
+    color: $darkGray;
+    text-align: left;
+    padding-left: 25px !important;
+    padding: .15rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    border-bottom-color: rgb(255, 255, 255) !important;
+    border-left-color: rgb(255, 255, 255) !important;
+    border-right-color: rgb(255, 255, 255) !important;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: .5px;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.24);
+}
+p {
+    margin-bottom: 0 !important;
+}
+

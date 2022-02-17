@@ -13,20 +13,22 @@ import {
 } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.style.scss';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-    <NavBar />
-    <div className='wrapper'>
-      <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="home" element={<Home />} />
-        <Route path="AllReports" element={<AllReports />} />
-        <Route path="SignIn" element={<Home />} />
-      </Routes>
-    </div>
-    <Footer />
+      <NavBar />
+      <div className='wrapper'>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="home" element={<Home />} />
+          <Route path="AllReports" element={<AllReports />} />
+          <Route path="SignIn" element={<Home />} />
+        </Routes>
+      </div>
+      <Footer />
    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')

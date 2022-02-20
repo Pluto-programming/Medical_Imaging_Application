@@ -13,6 +13,7 @@ function NavBar() {
         <Nav.Link href="/home">Home</Nav.Link>
         <Nav.Link href="AllReports">All Reports</Nav.Link>
         <Nav.Link href="SignIn">Sign In</Nav.Link>
+        <Nav.Link href="UserProfile">Admin</Nav.Link>
       </Nav>
       </Container>
     </Navbar>

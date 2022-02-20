@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import AllReports from './Pages/AllReports.js';
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
+import UserProfile from './Pages/UserProfile';
 
 import { 
   BrowserRouter,
@@ -26,6 +27,7 @@ ReactDOM.render(
           <Route path="home" element={<Home />} />
           <Route path="AllReports" element={<AllReports />} />
           <Route path="SignIn" element={<Home />} />
+          <Route path="UserProfile" element={<UserProfile />} />
         </Routes>
       </div>
       <Footer />

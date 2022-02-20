@@ -1,18 +1,73 @@
 @import '../index.style.css';
+@import 'https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@500&display=swap';
 
-.LandingPage-section {
-    border-width: 1px;
-    border-color: black;
+
+
+
+.LandingPage-s1 { 
+    color: black;
+    font-family: 'Roboto Serif', sans-serif;
+    padding: 10em;
+    background-color: rgb(212, 206, 206);
+    background-image: url(https://cdn1.vectorstock.com/i/1000x1000/36/50/man-doctors-wearing-medical-uniform-checking-x-ray-vector-32543650.jpg),
+    radial-gradient(rgb(212, 206, 206), rgb(247, 240, 240));
+    background-repeat: no-repeat;
+    background-position: fixed;
+  
+}
+
+.head {
+    
+    font-family: 'Roboto Serif', sans-serif;
+    height: 100px;
+    text-align: center right;
+    position:relative;
+    padding-left: 850px;
+    float: top !important;
+    
+
+}
+.container {
+    font-family: 'Roboto Serif', sans-serif;
+    text-align: center;
+    padding: 15px;
+
+
+}
+
+.btn {
+    background-color: white !important;
+    color: black;
+}
+    
+
+.LandingPage-section2 {
+    flex: 1;
+    background-color: #003a6dd2;
+    border-width: 0px;
+    border-color:#003B6D;
     border-style: solid;
     display: flex;
 }
 
+
+.LandingPage-section3 {
+    display: flex;
+    text-align: right;
+}
+
 .LandingPage-image {
     flex: 1;
-    background-color: rgba(0, 0, 255, 0.075);
+    background-color: #ffffff;
+    align-items: right !important; 
 }
 .LandingPage-text {
-    flex: 1;
-    background-color: rgba(236, 171, 216, 0.062);
+    flex: 1; 
+    font-family: sans-serif;
+    font-size: 100%;
+    background-color: rgba(247, 243, 243, 0.062);
+
 }
+
+
 

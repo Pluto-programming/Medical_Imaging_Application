@@ -21,7 +21,7 @@ ReactDOM.render(
     <NavBar />
     <div className='wrapper'>
       <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/" element={<LandingPage />} />
         <Route path="home" element={<Home />} />
         <Route path="AllReports" element={<AllReports />} />
         <Route path="SignIn" element={<Home />} />

@@ -6,54 +6,75 @@ function LandingPage() {
   return (
     <div className="LandingPage">
 
+
         {/* section one */}
-        <div className="LandingPage-section">
-            <div className="LandingPage-image">
-                <p>IMAGE GOES HERE</p>
+        <header className="LandingPage-s1" > 
+            <div>
+            
+            <div className="head">
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Sequi ratione architecto necessitatibus
+              cum praesentium dolor totam voluptatibus recusandae."</p>
             </div>
-            <div className="LandingPage-text">
-                <p>
-                    TEXT GOES HERE
-                </p>
             </div>
-        </div>
+        </header>
 
         {/* section two */}
-        <div className="LandingPage-section">
-            <div className="LandingPage-image">
-                <p>IMAGE GOES HERE</p>
+        <div className="LandingPage-section2">
+            <div className="container">
+            <h1>COVID-19 Medical Imaging </h1>
+                <button class ="btn">Explore </button>   
+                    
             </div>
-            <div className="LandingPage-text">
-                <p>
-                    TEXT GOES HERE
-                </p>
-            </div>
+            
         </div>
 
         {/* section three*/}
-        <div className="LandingPage-section">
+    
+
+         <div className="LandingPage-section3 LandingPage-text" >
             <div className="LandingPage-image">
-                <p>IMAGE GOES HERE</p>
+                <p> View patient profiles 
+                    <img src="https://cdn.icon-icons.com/icons2/2518/PNG/512/checkbox_icon_151467.png" 
+                    alt="checkbox" width="75" height="75"/> 
+                </p>
+
             </div>
-            <div className="LandingPage-text">
+
+
+            <div className="LandingPage-text LandingPage-image">
                 <p>
-                    THE TEXT GOES HERE
+                 Add, Edit, Upload exams 
+                    <img src="https://cdn.icon-icons.com/icons2/2518/PNG/512/checkbox_icon_151467.png" 
+                    alt="checkbox" width="75" height="75"/> 
                 </p>
             </div>
-        </div>
+            <div className="LandingPage-image LandingPage-text">
+                <p> Filter and organize 
 
-        {/* section four */}
+                <img src="https://cdn.icon-icons.com/icons2/2518/PNG/512/checkbox_icon_151467.png" 
+                    alt="checkbox" width="75" height="75"/> 
+
+                </p>
+            </div>
+
+
+            {/* section four */}
         <div className="LandingPage-section">
          <div className="LandingPage-image">
-                <p>IMAGE GOES HERE</p>
+                <p>
+                    
+                </p>
             </div>
             <div className="LandingPage-text">
                 <p>
-                    TEXT GOES HERE
+                
                 </p>
             </div>
         </div>
+        </div>
 
+        
     </div>
   );
 }
